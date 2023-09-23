@@ -1,2 +1,2 @@
-web: bundle exec rails s
-css: bundle exec rails tailwindcss:watch
+web: bundle exec rails server
+css: bundle exec rake tailwindcss:watch
