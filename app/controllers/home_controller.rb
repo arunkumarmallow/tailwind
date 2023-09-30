@@ -10,4 +10,10 @@ class HomeController < ApplicationController
 
   def login1
   end
+
+  def invoice
+  end
+
+  def dashboard
+  end
 end
