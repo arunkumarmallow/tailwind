@@ -5,15 +5,6 @@ class HomeController < ApplicationController
   def about
   end
 
-  def login
-  end
-
-  def login1
-  end
-
-  def invoice
-  end
-
-  def dashboard
+  def dashboard1
   end
 end

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   get '/login', to: 'home#login'
   get '/login1', to: 'home#login1'
-  get '/invoice', to: 'home#invoice'
-  get '/dashboard', to: 'home#dashboard'
+  get '/invoice', to: 'main#invoice'
+  get '/dashboard', to: 'main#dashboard'
+  get '/dashboard1', to: 'home#dashboard1'
 end
